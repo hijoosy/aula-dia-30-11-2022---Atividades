@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+       <!--"Faça um script que pergunte a idade ao usuário.
+        Se tiver 65 anos ou mais, exiba uma mensagem dizendo que ele já pode se aposentar. 
+        Se não, o tempo que ele ainda tem que trabalhar para se aposentar".-->
+
+
+    <script>
+        var idade = prompt('Digite a sua idade:');
+        if(idade >=65){
+            alert ('Pode se aposentar.')
+        }else{
+            var aux = 65 - idade;
+            alert ('Falta para a aposentadoria'+aux+' anos.');
+        }
+        
+    </script>
+
+
+</body>
+</html>

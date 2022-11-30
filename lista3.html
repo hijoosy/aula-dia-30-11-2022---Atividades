@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<script>
+        function check(){
+            var num1 = document.getElementById("num1").value;
+            var num2 = document.getElementById("num2").value;
+            var num3 = document.getElementById("num3").value;
+            
+            var maior = numero; 
+
+            if(num2 > maior )
+            maior = num2;
+             if(num3 > maior)
+            maior = num3;
+            alert("Maior: " +maior );     
+ </script>
+<body>
+
+                <form action="">
+                  Digite o primeiro número: 
+                  <input type="text" id="num1">
+                  <br></br>
+                  Digite o segundo número: 
+                  <input type="text" id="num2">
+                  <br></br>
+                  Digite o terceiro número: 
+                  <input type="text" id="num3">
+                  <br></br>
+
+                  <button onclick="check()">verificar</button>
+              </form>
+              
+</body>
+</html>

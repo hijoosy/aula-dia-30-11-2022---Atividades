@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+       <form action="">
+           Digite a primeira nota:
+           <input type="text" id="num1">
+           <br></br>
+           Digite a segunda nota:
+           <input type="text" id="num2">
+           <br></br>
+           <button onclick="media()">Verificar</button>
+       </form>
+</body>
+</html>
+<script>
+        function media(){
+            
+       var num1 = document.getElementById("num1").value;
+       var num2 = document.getElementById("num2").value;
+
+       media = (parseFloat(num1)+parseFloat(num2))/2;
+
+            parseFloat(media);
+
+        if(media ==10){
+            alert("Aprovado com Distinção!");
+        }else if(media >=7){
+            alert("Aprovado");
+        }else{
+            alert("Reprovado");
+        }
+    }
+    </script>
